@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+.App-header {
+  background-color: #20232a;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #61dafb;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #61dafb;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #61dafb;
+}
